@@ -7,7 +7,7 @@ import requests
 from datetime import datetime, timedelta
 
 #makesure fmpeg is installed in your system for video creation
-
+#find the start and end code from "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/CONUS/GEOCOLOR/"
 
 def parse_code(code):
     year = int(code[:4])
